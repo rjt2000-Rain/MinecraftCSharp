@@ -20,9 +20,11 @@ namespace MinecraftSharp
     /// </summary>
     public partial class MainWindow : Window
     {
+        private World world;
         public MainWindow()
         {
             InitializeComponent();
+            world = new World();
         }
     }
 }
